@@ -4,14 +4,11 @@ import { useOrganization } from "@clerk/nextjs";
 import { EmptyOrg } from "./_components/empty-org";
 import { BoardList } from "./_components/board-list";
 
-interface DashboardPageProps {
-    searchParams?: Record<string, string | string[] | undefined>;
-};
-
-// @ts-ignore
 const DashboardPage = ({
     searchParams,
-}: DashboardPageProps) => {
+}: {
+    searchParams?: Record<string, string | string[] | undefined>;
+}) => {
     const { organization } = useOrganization(); 
 
     return (

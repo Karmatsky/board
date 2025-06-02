@@ -11,6 +11,7 @@ interface DashboardPageProps {
     };
 };
 
+// @ts-ignore
 const DashboardPage = ({
     searchParams,
 }: DashboardPageProps) => {

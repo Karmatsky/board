@@ -1,4 +1,4 @@
-import { Skeleton } from "@/components/ui/skeleton";
+// import { Skeleton } from "@/components/ui/skeleton";
 import { ToolButton } from "./tool-button";
 import { Circle, MousePointer2, Square, StickyNote, Type, Pencil, Undo2, Redo2} from "lucide-react";
 import { CanvasMode, CanvasState, LayerType } from "@/types/canvas";

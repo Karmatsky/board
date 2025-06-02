@@ -6,10 +6,10 @@ import { cn, colorToCss } from "@/lib/utils";
 import { TextLayer } from "@/types/canvas";
 import { useMutation } from "@liveblocks/react";
 
-const font = Kalam({
-    subsets: ["latin"],
-    weight: ["400"],
-});
+// const font = Kalam({
+//     subsets: ["latin"],
+//     weight: ["400"],
+// });
 
 const calculateFontSize = (width: number, height: number) => {
     const maxFontSize = 96;
